@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>clcoltr</title>
+    <link rel="stylesheet" href="./stel.css">
+</head>
+<body>
+    
+
+    <div class="contnr">
+
+        <div class="clc">
+<input id="number" type="number" placeholder="ples Number">
+
+<div class="btn">
+    <button onclick="getnmprs(1)" >1</button>
+    <button onclick="getnmprs(2)">2</button>
+    <button onclick="getnmprs(3)">3</button>
+    <button onclick="getnmprs(4)">4</button>
+</div>
+<div class="btn">
+    <button onclick="getnmprs(5)">5</button>
+    <button onclick="getnmprs(6)">6</button>
+    <button onclick="getnmprs(7)">7</button>
+    <button onclick="getnmprs(8)">8</button>
+</div>
+<div class="btn">
+    <button onclick="getnmprs(9)" class="act">9</button>
+    <button onclick="getnmprs(0)">0</button>
+    <button onclick="getnmprs('.')">.</button>
+    <button onclick="getnmprs(',')">,</button>
+</div>
+<div class="btn">
+    <button onclick="getoprtrs('+')">+</button>
+    <button onclick="getoprtrs('-')">-</button>
+    <button class="chac" onclick="getoprtrs('/')"></button>
+    <button class="fe" onclick="getoprtrs('*')"></button>
+
+
+</div>
+<div class="btn">
+    <button onclick=" clca()">=</button>
+    <button onclick=" window.location.reload()  " >del</button>
+
+
+</div>
+        </div>
+    </div>
+    <script src="./meny.js"></script>
+</body>
+</html>
